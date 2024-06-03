@@ -6,7 +6,6 @@ import { FaMoon } from 'react-icons/fa6';
 
 const Hero = ({ darkMode, toggleDarkMode }) => {
 
-
   return (
     <section className='dark:bg-neutral-900 dark:text-white py-20 mb-5 flex flex-col justify-center text-center h-lvh'>
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center sm:px-6 lg:px-8 relative">
@@ -36,20 +35,21 @@ const Hero = ({ darkMode, toggleDarkMode }) => {
               </div>
             )}
           </button>
-
-
         </div>
         <div>
           <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
-              Hi I am Muzhda
+              Hi<span className='font-normal'>,</span> I am Muzhda
           </h1>
-          {/* <span>Frontend developer</span> */}
-          <p className="my-4">
-            The world of coding is like a <span className='font-bold'>magic world</span> to me.
-            We can create almost anything, isn&apos;t it cool? Just like magic!!!
-            <br />
-            I am a Software Developer but I am just in love with FrontEnd period.
-          </p>
+          <div className="my-4 mb-2">
+            <p className='mb-2'>
+              The world of coding is like a <span className='font-bold'>magic world</span> to me.
+              We can create almost anything, isn&apos;t it cool? Just like magic!!!
+            </p>     
+            <span className='font-bold'>Who am I? </span>
+            <span>Just a <span className='font-bold'>Software Developer</span> who is madly in love with <span className='font-bold'>Front-End</span> development period.</span>
+            <hr />
+          </div>
+
           <div className='mb-5'>
               <SocialIcon 
                 network='github' url='https://github.com/MuzhdaN' 
