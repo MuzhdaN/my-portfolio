@@ -2,7 +2,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
   return (
-    <footer className='flex justify-between bg-indigo-400 py-1 px-5'>
+    <footer className='flex justify-between py-1 px-5 bg-indigo-400 dark:bg-gray-950 dark:text-white'>
         <p className='mt-2'>@2024 Muzhda</p>
   
         <div className='flex items-end' >
