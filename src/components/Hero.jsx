@@ -1,5 +1,5 @@
 import { SocialIcon } from 'react-social-icons';
-import CV from '../assets/Muzhda Noorzad CV.pdf';
+// import CV from '../assets/Muzhda Noorzad CV.pdf';
 import heroImg from '../assets/heroImg.png';
 import { IoMdSunny } from 'react-icons/io';
 import { FaMoon } from 'react-icons/fa6';
@@ -15,13 +15,6 @@ const Hero = ({ darkMode, toggleDarkMode }) => {
             className="w-60"
             alt="Hero Image"
           />
-          {/* <button onClick={toggleDarkMode} 
-            className='absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 scale-150 hover:text-amber-400'
-            // className='w-16 h-16 bottom-14 bg-neutral-500 dark:bg-white rounded-full text-white dark:text-black font-semibold'
-          >
-            {darkMode ? <FaMoon/> : <IoMdSunny />}
-          </button> */}
-
           <button onClick={toggleDarkMode} className='absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 scale-150'>
             {darkMode ? (
               <div className="group">
@@ -61,11 +54,11 @@ const Hero = ({ darkMode, toggleDarkMode }) => {
               />
           </div>
 
-          <a href={CV} download>
-              <button className=' bg-indigo-500 w-28 h-12 font-bold rounded-xl shadow-xl hover:bg-indigo-600'>
+          {/* <a href={CV} download>
+              <button className='disabled bg-indigo-500 w-28 h-12 font-bold rounded-xl shadow-xl hover:bg-indigo-600'>
                 Resume
               </button>
-          </a>
+          </a> */}
         </div>
       
         </div>
