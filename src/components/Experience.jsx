@@ -25,8 +25,8 @@ const Experience = () => {
                   <h4 className='text-indigo-600 font-semibold'>{item.degree || item.position}</h4>
                   {/* <span className="text-indigo-500 text-sm -mt-6">{item.concentration}</span> */}
                   <p className='text-zinc-400'>{item.university || item.company}</p>
-                  <p className='text-zinc-400 mb-2'>{item.year || item.duration}</p>
-                  <p className='text-zinc-400'>{item.responsibilities}</p>
+                  <p className='text-zinc-500 mb-2'>{item.year || item.duration}</p>
+                  <p className='text-zinc-500 dark:text-zinc-400'>{item.responsibilities}</p>
                 </div>
               ))}
             </div>
