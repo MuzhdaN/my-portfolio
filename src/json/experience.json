@@ -1,0 +1,36 @@
+{
+    "sections": [
+      {
+        "title": "Education",
+        "icon": "GiGraduateCap",
+        "items": [
+          {
+            "degree": "Bachelors in Information Technology",
+            "concentration": "Software Engineering Concentration",
+            "university": "American University of Afghanistan",
+            "year": "2018-2022"
+          },
+          {
+            "degree": "Master of Business Administration",
+            "university": "St. Cloud State University",
+            "concentration": "Information Systems Concentration",
+            "provider": "Codecademy Pro",
+            "year": "2024-2025"
+          }
+        ]
+      },
+      {
+        "title": "Work Experience",
+        "icon": "SiHappycow",
+        "items": [
+          {
+            "position": "Frontend Developer",
+            "company": "Coordination of Humanitarian Assistance",
+            "duration": "March 2023 - Dec 2023",
+            "responsibilities": "Responsible for developing user-friendly and responsive web applications using React.js and other modern frontend technologies."
+          }
+        ]
+      }
+    ]
+  }
+  
