@@ -42,8 +42,12 @@ const ProjectCard = ({ project, darkMode }) => {
         </ul>
 
         <div className='flex justify-between'>
-          <FaGithub className={`w-10 h-5 hover:h-6 hover:text-indigo-600 hover:cursor-pointer ${darkMode ? 'text-white' : ''}`} />
-          <CiLocationArrow1 className={`w-10 h-5 hover:h-6 hover:text-indigo-600 hover:cursor-pointer hover:font-extrabold ${darkMode ? 'text-white' : ''}`} />
+          <a href={project.source} target="_blank" rel="noopener noreferrer">
+            <FaGithub className={`w-10 h-5 hover:h-6 hover:text-indigo-600 hover:cursor-pointer ${darkMode ? 'text-white' : ''}`} />
+          </a>
+          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+            <CiLocationArrow1 className={`w-10 h-5 hover:h-6 hover:text-indigo-600 hover:cursor-pointer hover:font-extrabold ${darkMode ? 'text-white' : ''}`} />
+          </a>
         </div>
       </div>
     </div>
