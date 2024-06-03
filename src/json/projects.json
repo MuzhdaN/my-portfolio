@@ -7,6 +7,30 @@
     "demo": "https://mycoursess.netlify.app/",
     "source": "https://github.com/MuzhdaN/learning-platform"
   },
+  {
+    "title": "Foodie",
+    "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/Foodie.png",
+    "description": "Foodie is more than just a food blog—it's a personal culinary sanctuary. Here, the owner delights in sharing her food experiences and expertise with fellow food enthusiasts.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://muzhdan.github.io/Foodie-blog_PP1/",
+    "source": "https://github.com/MuzhdaN/Foodie-blog_PP1"
+  },
+  {
+    "title": "JustAMap",
+    "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/justAmap.png",
+    "description": "JustMap is a cool website made with React. It uses Mapbox API to show maps and help you find your way. You can explore different places, get directions, and find interesting spots. Whether you're planning a trip or just checking out new areas, JustMap makes it easy and fun.",
+    "skills": ["Reactjs", "Tailwand", "MapBox"],
+    "demo": "https://justamap.netlify.app/",
+    "source": "https://github.com/MuzhdaN/map/blob/main/README.md"
+  },
+  {
+    "title": "Find The Bunny",
+    "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/bunny.png",
+    "description": "This is an engaging and delightful game crafted to bring joy to players of all ages. Whether you're seeking a quick break or a brief moment of amusement, this game offers a perfect 20-second escape into a whimsical world of fun. Developed with precision and creativity.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://muzhdan.github.io/Game_PP2/",
+    "source": "https://github.com/MuzhdaN/Game_PP2/blob/main/README.md"
+  },
     {
       "title": "Feast",
       "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/feast.png",
@@ -16,35 +40,11 @@
       "source": "https://github.com/MuzhdaN/FEAST"
     },
     {
-      "title": "Find The Bunny",
-      "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/bunny.png",
-      "description": "This is an engaging and delightful game crafted to bring joy to players of all ages. Whether you're seeking a quick break or a brief moment of amusement, this game offers a perfect 20-second escape into a whimsical world of fun. Developed with precision and creativity.",
-      "skills": ["HTML", "CSS", "Javascript"],
-      "demo": "https://muzhdan.github.io/Game_PP2/",
-      "source": "https://github.com/MuzhdaN/Game_PP2/blob/main/README.md"
-    },
-    {
       "title": "Snowman",
       "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/snowman.png",
       "description": "Snowman is an exciting word guessing game where players try to uncover a secret word by guessing its letters. With each incorrect guess, players lose a life. If they run out of lives before guessing the word, they lose the game. However, if they successfully guess the word in time, they emerge victorious! Ready to take on the challenge and test your word-solving skills?",
       "skills": ["Python"],
       "demo": "https://snowman-game-pp3.herokuapp.com/",
       "source": "https://github.com/MuzhdaN/Snowman-PP3"
-    },
-      {
-        "title": "JustAMap",
-        "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/justAmap.png",
-        "description": "JustMap is a cool website made with React. It uses Mapbox API to show maps and help you find your way. You can explore different places, get directions, and find interesting spots. Whether you're planning a trip or just checking out new areas, JustMap makes it easy and fun.",
-        "skills": ["Reactjs", "Tailwand", "MapBox"],
-        "demo": "https://justamap.netlify.app/",
-        "source": "https://github.com/MuzhdaN/map/blob/main/README.md"
-      },
-      {
-        "title": "../Foodie",
-        "imageSrc": "https://raw.githubusercontent.com/MuzhdaN/my-portfolio/main/src/assets/Foodie.png",
-        "description": "Foodie is more than just a food blog—it's a personal culinary sanctuary. Here, the owner delights in sharing her food experiences and expertise with fellow food enthusiasts.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://muzhdan.github.io/Foodie-blog_PP1/",
-        "source": "https://github.com/MuzhdaN/Foodie-blog_PP1"
-      }
+    }
   ]
